@@ -1,0 +1,21 @@
+{
+	"name": "astro-css-in-js-tests",
+	"version": "0.0.0",
+	"private": true,
+	"workspaces": [
+		"*"
+	],
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev --parallel"
+	},
+	"devDependencies": {
+		"turbo": "latest"
+	},
+	"engines": {
+		"npm": ">=7.0.0",
+		"node": ">=14.0.0"
+	},
+	"dependencies": {},
+	"packageManager": "npm@8.15.0"
+}

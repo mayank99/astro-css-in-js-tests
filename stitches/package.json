@@ -1,0 +1,19 @@
+{
+	"name": "stitches-example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@stitches/react": "^1.2.8"
+	},
+	"devDependencies": {
+		"astro": "^1.0.7",
+		"@astrojs/react": "^1.0.0"
+	}
+}

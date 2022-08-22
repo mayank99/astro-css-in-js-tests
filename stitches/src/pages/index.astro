@@ -1,0 +1,21 @@
+---
+import { getCssText } from "../../stitches.config";
+import Counter from "../components/Counter";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="color-scheme" content="dark light" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+		<style id="stitches" set:html={getCssText()}>
+
+		</style>
+	</head>
+	<body>
+		<h1>Astro</h1>
+		<Counter client:load>Hi, I'm a stitches Counter</Counter>
+	</body>
+</html>
