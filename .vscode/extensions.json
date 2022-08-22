@@ -1,4 +1,7 @@
 {
-  "recommendations": ["astro-build.astro-vscode"],
-  "unwantedRecommendations": []
+	"recommendations": [
+		"astro-build.astro-vscode",
+		"styled-components.vscode-styled-components"
+	],
+	"unwantedRecommendations": []
 }

@@ -1,0 +1,19 @@
+{
+	"name": "styled-components-example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"styled-components": "^5.3.5"
+	},
+	"devDependencies": {
+		"astro": "^1.0.7",
+		"@astrojs/react": "^1.0.0"
+	}
+}

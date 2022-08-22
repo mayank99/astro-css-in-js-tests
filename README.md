@@ -4,14 +4,14 @@ This monorepo will show examples of various CSS-in-JS libraries in Astro.
 
 ## Compatibility table
 
-| Library           | Status             | Notes                                                                                                                |
-| ----------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| emotion           | 🟡 Partially works | Seeing type errors in IDE, also SSR will need manual configuration                                                   |
-| stitches          | ✅ Works           | -                                                                                                                    |
-| vanilla-extract   | ✅ Works           | (pending example currently)                                                                                          |
-| styled-components | ❌ Doesn't work?   | Example needed to confirm. For now, see [issue](https://github.com/styled-components/styled-components/issues/3759). |
-| linaria           | ❌ Doesn't work?   | (pending example currently)                                                                                          |
-| solid-styled      | ❌ Doesn't work?   | (pending example currently)                                                                                          |
+| Library           | Status             | Notes                                                                                                               |
+| ----------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| styled-components | 🟡 Partially works | SSR seems to require babel ([docs](https://styled-components.com/docs/advanced#server-side-rendering))              |
+| emotion           | 🟡 Partially works | Seeing type errors in IDE, also SSR doesn't work out of the box (see [docs](https://emotion.sh/docs/ssr#on-server)) |
+| stitches          | ✅ Works           | -                                                                                                                   |
+| vanilla-extract   | ✅ Works           | (pending example currently)                                                                                         |
+| linaria           | ❌ Doesn't work?   | (pending example currently)                                                                                         |
+| solid-styled      | ❌ Doesn't work?   | (pending example currently)                                                                                         |
 
 ## Running locally
 
