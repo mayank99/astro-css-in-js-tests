@@ -9,7 +9,7 @@ This monorepo will show examples of various CSS-in-JS libraries in Astro. Curren
 | styled-components | 🟡 Partially works | SSR seems to require babel ([docs](https://styled-components.com/docs/advanced#server-side-rendering)) |
 | emotion           | 🟡 Partially works | TS errors in IDE, also SSR doesn't work (see [docs](https://emotion.sh/docs/ssr#on-server))            |
 | linaria           | ✅ Works           | Works perfectly using rollup plugin                                                                    |
-| stitches          | ✅ Works           | -                                                                                                      |
+| stitches          | ✅ Works           | Works out-of-the-box following official docs                                                           |
 | vanilla-extract   | ✅ Works?          | (pending example currently)                                                                            |
 | solid-styled      | ❌ Doesn't work    | No vite or rollup plugin, also requires Context                                                        |
 
@@ -33,7 +33,8 @@ Open `localhost:3000`, `localhost:3001`, etc in browser.
 
 To add an example of a new library:
 
-1. Create a copy of any folder (e.g. `emotion/`)
-2. Rename the folder and the `package` field in the folder's package.json
-3. Update the code (dependencies, imports, etc). Try to keep the actual styles more or less the same.
-4. Update the README.md
+1. Create a copy of any folder (e.g. `emotion`).
+2. Rename the folder and the `name` field in the folder's package.json.
+3. Update the dependencies and run `npm install` from the root of the monorepo.
+4. Update the code. Try to keep the actual styles more or less the same.
+5. Update the README.md
