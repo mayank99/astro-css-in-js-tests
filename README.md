@@ -11,7 +11,7 @@ This monorepo will show examples of various CSS-in-JS libraries in Astro. Curren
 | linaria           | ✅ Works           | Works perfectly using rollup plugin                                                                    |
 | stitches          | ✅ Works           | -                                                                                                      |
 | vanilla-extract   | ✅ Works?          | (pending example currently)                                                                            |
-| solid-styled      | ❌ Doesn't work?   | (pending example currently)                                                                            |
+| solid-styled      | ❌ Doesn't work    | No vite or rollup plugin, also requires Context                                                        |
 
 ## Running locally
 

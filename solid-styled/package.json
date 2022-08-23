@@ -1,0 +1,21 @@
+{
+	"name": "solid-styled-example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"solid-styled": "^0.6.1"
+	},
+	"devDependencies": {
+		"@astrojs/solid-js": "^1.0.0",
+		"astro": "^1.0.7",
+		"babel-plugin-solid-styled": "^0.6.1",
+		"solid-js": "^1.4.3"
+	}
+}
