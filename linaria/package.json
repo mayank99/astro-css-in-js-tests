@@ -1,0 +1,21 @@
+{
+	"name": "linaria-example",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@linaria/core": "^4.1.1",
+		"@linaria/react": "^4.1.2"
+	},
+	"devDependencies": {
+		"astro": "^1.0.7",
+		"@astrojs/react": "^1.0.0",
+		"@linaria/rollup": "^4.1.2"
+	}
+}

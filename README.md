@@ -8,9 +8,9 @@ This monorepo will show examples of various CSS-in-JS libraries in Astro.
 | ----------------- | ------------------ | ------------------------------------------------------------------------------------------------------ |
 | styled-components | 🟡 Partially works | SSR seems to require babel ([docs](https://styled-components.com/docs/advanced#server-side-rendering)) |
 | emotion           | 🟡 Partially works | TS errors in IDE, also SSR doesn't work (see [docs](https://emotion.sh/docs/ssr#on-server))            |
+| linaria           | ✅ Works           | Works perfectly using rollup plugin                                                                    |
 | stitches          | ✅ Works           | -                                                                                                      |
-| vanilla-extract   | ✅ Works           | (pending example currently)                                                                            |
-| linaria           | ❌ Doesn't work?   | (pending example currently)                                                                            |
+| vanilla-extract   | ✅ Works?          | (pending example currently)                                                                            |
 | solid-styled      | ❌ Doesn't work?   | (pending example currently)                                                                            |
 
 ## Running locally
