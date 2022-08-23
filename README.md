@@ -4,14 +4,14 @@ This monorepo will show examples of various CSS-in-JS libraries in Astro.
 
 ## Compatibility table
 
-| Library           | Status             | Notes                                                                                                               |
-| ----------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| styled-components | 🟡 Partially works | SSR seems to require babel ([docs](https://styled-components.com/docs/advanced#server-side-rendering))              |
-| emotion           | 🟡 Partially works | Seeing type errors in IDE, also SSR doesn't work out of the box (see [docs](https://emotion.sh/docs/ssr#on-server)) |
-| stitches          | ✅ Works           | -                                                                                                                   |
-| vanilla-extract   | ✅ Works           | (pending example currently)                                                                                         |
-| linaria           | ❌ Doesn't work?   | (pending example currently)                                                                                         |
-| solid-styled      | ❌ Doesn't work?   | (pending example currently)                                                                                         |
+| Library           | Status             | Notes                                                                                                  |
+| ----------------- | ------------------ | ------------------------------------------------------------------------------------------------------ |
+| styled-components | 🟡 Partially works | SSR seems to require babel ([docs](https://styled-components.com/docs/advanced#server-side-rendering)) |
+| emotion           | 🟡 Partially works | TS errors in IDE, also SSR doesn't work (see [docs](https://emotion.sh/docs/ssr#on-server))            |
+| stitches          | ✅ Works           | -                                                                                                      |
+| vanilla-extract   | ✅ Works           | (pending example currently)                                                                            |
+| linaria           | ❌ Doesn't work?   | (pending example currently)                                                                            |
+| solid-styled      | ❌ Doesn't work?   | (pending example currently)                                                                            |
 
 ## Running locally
 
@@ -28,3 +28,12 @@ npm run dev
 ```
 
 Open `localhost:3000`, `localhost:3001`, etc in browser.
+
+## Contributing
+
+To add an example of a new library:
+
+1. Create a copy of any folder (e.g. `emotion/`)
+2. Rename the folder and the `package` field in the folder's package.json
+3. Update the code (dependencies, imports, etc). Try to keep the actual styles more or less the same.
+4. Update the README.md
