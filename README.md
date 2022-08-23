@@ -1,6 +1,6 @@
 # astro + css-in-js
 
-This monorepo will show examples of various CSS-in-JS libraries in Astro.
+This monorepo will show examples of various CSS-in-JS libraries in Astro. Currently only shows a basic counter example, would be nice to demonstrate more advanced usage for each library.
 
 ## Compatibility table
 
