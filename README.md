@@ -10,7 +10,7 @@ This monorepo will show examples of various CSS-in-JS libraries in Astro. Curren
 | emotion           | 🟡 Partially works | TS errors in IDE, also SSR doesn't work (see [docs](https://emotion.sh/docs/ssr#on-server))            |
 | linaria           | ✅ Works           | Works perfectly using rollup plugin                                                                    |
 | stitches          | ✅ Works           | Works out-of-the-box following official docs                                                           |
-| vanilla-extract   | ✅ Works?          | (pending example currently)                                                                            |
+| vanilla-extract   | ❌ Doesn't work    | Creates correct class names and CSS file but doesn't import the CSS                                    |
 | solid-styled      | ❌ Doesn't work    | No vite or rollup plugin, also requires Context                                                        |
 
 ## Running locally
