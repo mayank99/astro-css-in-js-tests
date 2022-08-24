@@ -4,14 +4,14 @@ This monorepo will show examples of various CSS-in-JS libraries in Astro. Curren
 
 ## Compatibility table
 
-| Library           | Status             | Notes                                                                                                  |
-| ----------------- | ------------------ | ------------------------------------------------------------------------------------------------------ |
-| styled-components | 🟡 Partially works | SSR seems to require babel ([docs](https://styled-components.com/docs/advanced#server-side-rendering)) |
-| emotion           | 🟡 Partially works | TS errors in IDE, also SSR doesn't work (see [docs](https://emotion.sh/docs/ssr#on-server))            |
-| linaria           | ✅ Works           | Works perfectly using rollup plugin                                                                    |
-| stitches          | ✅ Works           | Works out-of-the-box following official docs                                                           |
-| vanilla-extract   | ❌ Doesn't work    | Creates correct class names and CSS file but doesn't import the CSS                                    |
-| solid-styled      | ❌ Doesn't work    | No vite or rollup plugin, also requires Context                                                        |
+| Library           | Status             | Notes                                                                              |
+| ----------------- | ------------------ | ---------------------------------------------------------------------------------- |
+| styled-components | ❌ Doesn't work    | Prod build errors with `styled.div` is not a function                              |
+| emotion           | ❌ Doesn't work    | Prod build errors with `styled.div` is not a function                              |
+| linaria           | 🟡 Partially works | `css` works perfectly using rollup plugin, `styled` causes build error             |
+| stitches          | ✅ Works           | Works out-of-the-box following official docs                                       |
+| vanilla-extract   | ❌ Doesn't work    | In prod build, creates correct class names and CSS file but doesn't import the CSS |
+| solid-styled      | ❌ Doesn't work    | No vite or rollup plugin, also requires Context                                    |
 
 ## Running locally
 
