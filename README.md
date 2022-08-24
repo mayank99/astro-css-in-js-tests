@@ -9,7 +9,7 @@ This monorepo will show examples of various CSS-in-JS libraries in Astro. Curren
 | styled-components | ❌ Doesn't work    | Fails with `TypeError: Cannot read properties of undefined (reading 'div')`    |
 | emotion           | ❌ Doesn't work    | Prod build errors with `styled.div` is not a function                          |
 | linaria           | 🟡 Partially works | `css` works perfectly using rollup plugin, `styled` causes build error         |
-| stitches          | 🟡 Partially works | `<style>` tag is empty in SSR => causes FOUC                                   |
+| stitches          | ✅ Works           | `<style>` tag for SSR needs to be in React component                           |
 | vanilla-extract   | ❌ Doesn't work    | Prod build creates correct class names and CSS file but doesn't import the CSS |
 | solid-styled      | ❌ Doesn't work    | No vite or rollup plugin, also requires Context                                |
 

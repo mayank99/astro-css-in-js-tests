@@ -1,3 +1,4 @@
+/** @jsxImportSource react */
 import * as React from 'react';
 import { styled, css, globalCss } from '@stitches/react';
 
@@ -6,9 +7,7 @@ export default function Counter(props: { children: React.ReactNode }) {
 	const add = () => setCount((i) => i + 1);
 	const subtract = () => setCount((i) => i - 1);
 
-	globalCss({
-		body: { margin: 0, fontFamily: 'system-ui' },
-	})();
+	globals();
 
 	return (
 		<>
@@ -21,6 +20,10 @@ export default function Counter(props: { children: React.ReactNode }) {
 		</>
 	);
 }
+
+const globals = globalCss({
+	body: { margin: 0, fontFamily: 'system-ui' },
+});
 
 const Wrapper = styled('div', {
 	display: 'grid',
