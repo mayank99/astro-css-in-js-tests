@@ -11,9 +11,11 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"astro": "^1.0.8",
+		"astro": "^1.0.9",
 		"@astrojs/react": "^1.0.0",
 		"@types/react": "^18.0.17",
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0",
 		"typestyle": "^2.4.0"
 	}
 }
