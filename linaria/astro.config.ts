@@ -6,6 +6,8 @@ import linaria from '@linaria/rollup';
 export default defineConfig({
 	vite: {
 		plugins: [linaria()],
+		legacy: { buildSsrCjsExternalHeuristics: true },
+		ssr: { noExternal: ['@linaria/*'] },
 	},
 	integrations: [react()],
 });
