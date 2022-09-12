@@ -4,15 +4,15 @@ This monorepo will show examples of various CSS-in-JS libraries in Astro. Curren
 
 ## Compatibility table
 
-| Library           | Status             | Notes                                                                          |
-| ----------------- | ------------------ | ------------------------------------------------------------------------------ |
-| styled-components | ❌ Doesn't work    | Prod build errors with: `styled.div is not a function`                         |
-| emotion           | ❌ Doesn't work    | Prod build errors with: `styled.div is not a function`                         |
-| linaria           | 🟡 Partially works | `css` works perfectly using rollup plugin, `styled` causes build error         |
-| stitches          | ✅ Works           | `<style>` tag for SSR needs to be in React component                           |
-| typestyle         | ✅ Works           | -                                                                              |
-| vanilla-extract   | ❌ Doesn't work    | Prod build creates correct class names and CSS file but doesn't import the CSS |
-| solid-styled      | ❌ Doesn't work    | No vite or rollup plugin, also requires Context                                |
+| Library           | Status             | Notes                                                                  |
+| ----------------- | ------------------ | ---------------------------------------------------------------------- |
+| styled-components | ❌ Doesn't work    | Prod build errors with: `styled.div is not a function`                 |
+| emotion           | ❌ Doesn't work    | Prod build errors with: `styled.div is not a function`                 |
+| linaria           | 🟡 Partially works | `css` works perfectly using rollup plugin, `styled` causes build error |
+| stitches          | ✅ Works           | `<style>` tag for SSR needs to be in React component                   |
+| typestyle         | ✅ Works           | -                                                                      |
+| vanilla-extract   | ✅ Works           | -                                                                      |
+| solid-styled      | ❌ Doesn't work    | No vite or rollup plugin, also requires Context                        |
 
 ## Running locally
 
