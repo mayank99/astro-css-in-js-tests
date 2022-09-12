@@ -5,7 +5,7 @@ import react from '@astrojs/react';
 export default defineConfig({
 	integrations: [react()],
 	vite: {
-		legacy: { buildSsrCjsExternalHeuristics: true },
+		legacy: { buildSsrCjsExternalHeuristics: import.meta.env.SSR },
 		ssr: { noExternal: ['styled-components'] },
 	},
 });
