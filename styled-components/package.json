@@ -13,8 +13,8 @@
 		"styled-components": "^5.3.5"
 	},
 	"devDependencies": {
-		"astro": "^1.0.9",
-		"@astrojs/react": "^1.0.0",
+		"astro": "^1.8.0",
+		"@astrojs/react": "^1.2.2",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0"
 	}
