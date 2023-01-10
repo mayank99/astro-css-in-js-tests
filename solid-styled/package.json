@@ -10,12 +10,12 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"solid-styled": "^0.6.1"
+		"solid-styled": "^0.7.4"
 	},
 	"devDependencies": {
 		"@astrojs/solid-js": "^1.2.3",
-		"astro": "^1.8.0",
+		"astro": "^1.9.1",
 		"babel-plugin-solid-styled": "^0.6.1",
-		"solid-js": "^1.4.3"
+		"solid-js": "^1.6.8"
 	}
 }

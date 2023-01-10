@@ -13,7 +13,7 @@
 		"@stitches/react": "^1.2.8"
 	},
 	"devDependencies": {
-		"astro": "^1.8.0",
+		"astro": "^1.9.1",
 		"@astrojs/react": "^1.2.2",
 		"@types/react": "^18.0.17",
 		"react": "^18.0.0",

@@ -10,10 +10,10 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"styled-components": "^5.3.5"
+		"styled-components": "^5.3.6"
 	},
 	"devDependencies": {
-		"astro": "^1.8.0",
+		"astro": "^1.9.1",
 		"@astrojs/react": "^1.2.2",
 		"cross-env": "^7.0.3",
 		"react": "^18.0.0",

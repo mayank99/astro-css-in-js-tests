@@ -10,13 +10,13 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@linaria/core": "^4.1.2",
-		"@linaria/react": "^4.1.3"
+		"@linaria/core": "^4.2.5",
+		"@linaria/react": "^4.3.3"
 	},
 	"devDependencies": {
-		"astro": "^1.8.0",
+		"astro": "^1.9.1",
 		"@astrojs/react": "^1.2.2",
-		"@linaria/rollup": "^4.1.3",
+		"@linaria/rollup": "^4.3.2",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0"
 	}
