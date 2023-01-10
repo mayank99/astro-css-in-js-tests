@@ -9,15 +9,17 @@
 		"preview": "astro preview",
 		"astro": "astro"
 	},
-	"dependencies": {
-		"@linaria/core": "^4.2.5",
-		"@linaria/react": "^4.3.3"
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"astro": "^1.9.1",
 		"@astrojs/react": "^1.2.2",
-		"@linaria/rollup": "^4.3.2",
+		"@babel/core": "^7.20.2",
+		"@linaria/vite": "^4.2.5",
+		"@linaria/core": "^4.2.5",
+		"@linaria/react": "^4.3.3",
+		"babel-preset-react": "^6.24.1",
 		"react": "^18.0.0",
-		"react-dom": "^18.0.0"
+		"react-dom": "^18.0.0",
+		"vite": "^4"
 	}
 }
