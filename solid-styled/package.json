@@ -9,12 +9,12 @@
 		"preview": "astro preview"
 	},
 	"dependencies": {
-		"solid-styled": "^0.7.4"
+		"solid-styled": "^0.7.5"
 	},
 	"devDependencies": {
 		"@astrojs/solid-js": "2",
 		"astro": "2",
-		"babel-plugin-solid-styled": "^0.6.1",
+		"vite-plugin-solid-styled": "^0.7.5",
 		"solid-js": "^1.6.8"
 	}
 }
