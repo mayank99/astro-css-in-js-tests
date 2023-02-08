@@ -6,15 +6,14 @@
 		"dev": "cross-env NODE_ENV=development astro dev",
 		"start": "astro dev",
 		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
+		"preview": "astro preview"
 	},
 	"dependencies": {
 		"styled-components": "^5.3.6"
 	},
 	"devDependencies": {
-		"astro": "^1.9.1",
-		"@astrojs/react": "^1.2.2",
+		"astro": "2",
+		"@astrojs/react": "2",
 		"cross-env": "^7.0.3",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0"

@@ -6,14 +6,13 @@
 		"dev": "astro dev",
 		"start": "astro dev",
 		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
+		"preview": "astro preview"
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"astro": "^1.9.1",
-		"@astrojs/react": "^1.2.2",
-		"@vanilla-extract/vite-plugin": "^3.7.0",
+		"astro": "2",
+		"@astrojs/react": "2",
+		"@vanilla-extract/vite-plugin": "^3.8.0",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0"
 	}

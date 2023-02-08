@@ -6,15 +6,14 @@
 		"dev": "astro dev",
 		"start": "astro dev",
 		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
+		"preview": "astro preview"
 	},
 	"dependencies": {
 		"solid-styled": "^0.7.4"
 	},
 	"devDependencies": {
-		"@astrojs/solid-js": "^1.2.3",
-		"astro": "^1.9.1",
+		"@astrojs/solid-js": "2",
+		"astro": "2",
 		"babel-plugin-solid-styled": "^0.6.1",
 		"solid-js": "^1.6.8"
 	}

@@ -6,17 +6,16 @@
 		"dev": "astro dev",
 		"start": "astro dev",
 		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
+		"preview": "astro preview"
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"astro": "^1.9.1",
-		"@astrojs/react": "^1.2.2",
+		"astro": "2",
+		"@astrojs/react": "2",
 		"@babel/core": "^7.20.2",
-		"@linaria/vite": "^4.2.5",
-		"@linaria/core": "^4.2.5",
-		"@linaria/react": "^4.3.3",
+		"@linaria/vite": "^4.2.6",
+		"@linaria/core": "^4.2.6",
+		"@linaria/react": "^4.3.4",
 		"babel-preset-react": "^6.24.1",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0",

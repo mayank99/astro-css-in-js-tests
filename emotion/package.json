@@ -6,16 +6,15 @@
 		"dev": "astro dev",
 		"start": "astro dev",
 		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
+		"preview": "astro preview"
 	},
 	"dependencies": {
 		"@emotion/react": "^11.10.0",
 		"@emotion/styled": "^11.10.0"
 	},
 	"devDependencies": {
-		"astro": "^1.9.1",
-		"@astrojs/react": "^1.2.2",
+		"astro": "2",
+		"@astrojs/react": "2",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0"
 	}
